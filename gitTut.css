@@ -5,23 +5,31 @@
     background-color: grey;
 }
 .header{
-    display:flex;
-    flex-direction:row;
-    justify-content:left;
+    display:grid;
+    grid-template: 20px/auto auto auto;
     background-color: grey;
-    
+    height: 40px;
+    justify-content: space-evenly;
+}
+.header>div{
+    text-align: center;
+    height: 28px;
 }
 #icon{
     width: 100px;
-    align-content: center;
     color: black;
+    grid-column: 1/span 1;
+    padding-top: 10px;
 }
 #home{
     width: 100px;
     align-content: center;
+    grid-column: 2/span 1;
+    padding-top: 10px;
 }
-
 #abt{
     width: 100px;
     align-content: center;
+    grid-column: 3/span 1;
+    padding-top: 10px;
 }
