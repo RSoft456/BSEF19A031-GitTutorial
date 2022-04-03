@@ -1,0 +1,27 @@
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: grey;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    background-color: grey;
+    
+}
+#icon{
+    width: 100px;
+    align-content: center;
+    color: black;
+}
+#home{
+    width: 100px;
+    align-content: center;
+}
+
+#abt{
+    width: 100px;
+    align-content: center;
+}
