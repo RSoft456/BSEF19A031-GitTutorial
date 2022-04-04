@@ -1,6 +1,9 @@
 .Pagebody{
 height:1000px;
 }
+body{
+    background-color: #908ccc;
+}
 .footer{
     display:grid;
     grid-template: 50px 50px/auto auto ;
@@ -49,4 +52,7 @@ height:1000px;
 a{
     text-decoration: none;
     color: black;
+}
+a:hover{
+    color:deepskyblue;
 }
